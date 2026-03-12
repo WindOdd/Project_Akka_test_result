@@ -1,0 +1,505 @@
+{
+  "meta": {
+    "timestamp": 1773116985.580348,
+    "tool_version": "v2",
+    "platform": "Windows AMD64",
+    "python_version": "3.14.3",
+    "concurrency": 4,
+    "total_requests": 48,
+    "total_time_seconds": 336.76
+  },
+  "summary": {
+    "success_count": 48,
+    "fail_count": 0,
+    "success_rate": 100.0,
+    "throughput_rps": 0.14
+  },
+  "latency": {
+    "min_ms": 9985.2,
+    "max_ms": 45005.0,
+    "avg_ms": 24846.7,
+    "p50_ms": 23455.7,
+    "p95_ms": 41765.0,
+    "p99_ms": 44447.6,
+    "stdev_ms": 9068.2
+  },
+  "category_stats": {
+    "rule_basic": {
+      "count": 12,
+      "avg_ms": 25610.9,
+      "p50_ms": 23207.2,
+      "p95_ms": 41323.7
+    },
+    "rule_term": {
+      "count": 12,
+      "avg_ms": 25291.4,
+      "p50_ms": 21528.3,
+      "p95_ms": 41128.2
+    },
+    "ambiguous": {
+      "count": 5,
+      "avg_ms": 23169.2,
+      "p50_ms": 21570.9,
+      "p95_ms": 33878.6
+    },
+    "store_info": {
+      "count": 6,
+      "avg_ms": 24553.5,
+      "p50_ms": 26953.9,
+      "p95_ms": 30895.5
+    },
+    "recommendation": {
+      "count": 4,
+      "avg_ms": 24345.8,
+      "p50_ms": 23347.9,
+      "p95_ms": 27433.2
+    },
+    "out_of_scope": {
+      "count": 4,
+      "avg_ms": 25405.2,
+      "p50_ms": 23908.4,
+      "p95_ms": 41654.6
+    },
+    "edge_case": {
+      "count": 5,
+      "avg_ms": 23929.0,
+      "p50_ms": 24453.5,
+      "p95_ms": 29533.5
+    }
+  },
+  "error_summary": {},
+  "raw_results": [
+    {
+      "request_id": 2,
+      "query": "勝利條件是什麼？",
+      "category": "rule_basic",
+      "latency_ms": 10134.8,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 42,
+      "query": "那個 draw card 是什麼意思？",
+      "category": "rule_term",
+      "latency_ms": 17336.4,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 9,
+      "query": "Secret Hitler 怎麼玩？",
+      "category": "rule_term",
+      "latency_ms": 37956.3,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 22,
+      "query": "我想問一下",
+      "category": "ambiguous",
+      "latency_ms": 35333.7,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 13,
+      "query": "廁所在哪裡？",
+      "category": "store_info",
+      "latency_ms": 29421.5,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 16,
+      "query": "低消是多少？",
+      "category": "store_info",
+      "latency_ms": 24486.3,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 44,
+      "query": "Secret Hitler 怎麼玩？",
+      "category": "rule_term",
+      "latency_ms": 45005.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 43,
+      "query": "這個 combo 可以嗎？",
+      "category": "rule_term",
+      "latency_ms": 37477.4,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 7,
+      "query": "那個 draw card 是什麼意思？",
+      "category": "rule_term",
+      "latency_ms": 33032.8,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 47,
+      "query": "Wifi 密碼是什麼？",
+      "category": "store_info",
+      "latency_ms": 31097.4,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 21,
+      "query": "那個…就是那個很多人在玩的",
+      "category": "ambiguous",
+      "latency_ms": 10093.8,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 8,
+      "query": "這個 combo 可以嗎？",
+      "category": "rule_term",
+      "latency_ms": 14544.1,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 40,
+      "query": "這個遊戲幾個人可以玩？",
+      "category": "rule_basic",
+      "latency_ms": 12280.1,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 41,
+      "query": "Action phase 可以做幾件事？",
+      "category": "rule_term",
+      "latency_ms": 17468.3,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 18,
+      "query": "有沒有簡單一點的遊戲？",
+      "category": "recommendation",
+      "latency_ms": 22967.7,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 10,
+      "query": "這個 token 放在 board 上對嗎？",
+      "category": "rule_term",
+      "latency_ms": 24537.7,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 36,
+      "query": "狼人殺的規則是什麼？",
+      "category": "rule_basic",
+      "latency_ms": 40330.8,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 14,
+      "query": "你們營業到幾點？",
+      "category": "store_info",
+      "latency_ms": 30289.7,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 4,
+      "query": "Setup 要怎麼擺？",
+      "category": "rule_basic",
+      "latency_ms": 36525.6,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 28,
+      "query": "幫我叫一台 Uber",
+      "category": "out_of_scope",
+      "latency_ms": 43819.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 35,
+      "query": "卡卡頌怎麼算分？",
+      "category": "rule_basic",
+      "latency_ms": 25834.3,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 15,
+      "query": "可以帶外食嗎？",
+      "category": "store_info",
+      "latency_ms": 21984.4,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 30,
+      "query": "🎲🎲🎲",
+      "category": "edge_case",
+      "latency_ms": 19132.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 23,
+      "query": "不好意思",
+      "category": "ambiguous",
+      "latency_ms": 21570.9,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 6,
+      "query": "Action phase 可以做幾件事？",
+      "category": "rule_term",
+      "latency_ms": 15001.8,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 5,
+      "query": "這個遊戲幾個人可以玩？",
+      "category": "rule_basic",
+      "latency_ms": 19134.8,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 17,
+      "query": "兩個人適合玩什麼？",
+      "category": "recommendation",
+      "latency_ms": 22600.4,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 38,
+      "query": "平手的時候怎麼辦？",
+      "category": "rule_basic",
+      "latency_ms": 21720.3,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 33,
+      "query": "",
+      "category": "edge_case",
+      "latency_ms": 26139.8,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 20,
+      "query": "有沒有像 Catan 類似的遊戲？",
+      "category": "recommendation",
+      "latency_ms": 23728.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 31,
+      "query": "？？？",
+      "category": "edge_case",
+      "latency_ms": 19537.6,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 25,
+      "query": "就…那個啊你知道的",
+      "category": "ambiguous",
+      "latency_ms": 20789.3,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 26,
+      "query": "附近有什麼好吃的？",
+      "category": "out_of_scope",
+      "latency_ms": 9985.2,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 27,
+      "query": "今天天氣怎樣？",
+      "category": "out_of_scope",
+      "latency_ms": 29389.5,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 46,
+      "query": "Discard pile 可以翻開來看嗎？",
+      "category": "rule_term",
+      "latency_ms": 18079.9,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 45,
+      "query": "這個 token 放在 board 上對嗎？",
+      "category": "rule_term",
+      "latency_ms": 19873.2,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 19,
+      "query": "小朋友可以玩的遊戲有哪些？",
+      "category": "recommendation",
+      "latency_ms": 28087.1,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 34,
+      "query": "我想問一下就是我上次來的時候有玩一個遊戲那個遊戲好像是一個城堡然後裡面有很多房間每個房間有不同的效果我記得是三到六個人可以玩然後好像還有一個叛徒機制就是玩到一半的時候會有人變成壞人然後其他人要想辦法逃出去還是怎樣的我忘記名字了你知道是哪個遊戲嗎",
+      "category": "edge_case",
+      "latency_ms": 24453.5,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 37,
+      "query": "勝利條件是什麼？",
+      "category": "rule_basic",
+      "latency_ms": 22592.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 24,
+      "query": "嗯…就是上次那個",
+      "category": "ambiguous",
+      "latency_ms": 28058.4,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 11,
+      "query": "Discard pile 可以翻開來看嗎？",
+      "category": "rule_term",
+      "latency_ms": 23183.4,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 29,
+      "query": "台積電今天股價多少？",
+      "category": "out_of_scope",
+      "latency_ms": 18427.2,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 12,
+      "query": "Wifi 密碼是什麼？",
+      "category": "store_info",
+      "latency_ms": 10042.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 3,
+      "query": "平手的時候怎麼辦？",
+      "category": "rule_basic",
+      "latency_ms": 18540.2,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 32,
+      "query": "@店員 幫我看一下",
+      "category": "edge_case",
+      "latency_ms": 30382.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 39,
+      "query": "Setup 要怎麼擺？",
+      "category": "rule_basic",
+      "latency_ms": 23822.5,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 0,
+      "query": "卡卡頌怎麼算分？",
+      "category": "rule_basic",
+      "latency_ms": 33878.0,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    },
+    {
+      "request_id": 1,
+      "query": "狼人殺的規則是什麼？",
+      "category": "rule_basic",
+      "latency_ms": 42537.3,
+      "success": true,
+      "error_msg": "",
+      "error_type": ""
+    }
+  ]
+}

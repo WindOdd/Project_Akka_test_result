@@ -101,7 +101,15 @@ Fine-tuning baseline: `qwen3:4b-instruct` scored 81.94%. Fine-tuned version scor
 
 ## 🛠 Test Environment
 
-- **Hardware**: NVIDIA Jetson Orin Nano Super 8GB
+**Level 1 / 2 / 3 — Model Evaluation**
+- CPU: AMD Ryzen 7 7800X3D
+- Memory: 32GB DDR5
+- GPU: NVIDIA RTX 3080 (12GB VRAM)
+- LLM Runtime: Ollama (default settings)
+- Max Context Length: 4K tokens
+
+**Semantic-route-test — Production Validation**
+- Hardware: NVIDIA Jetson Orin Nano Super 8GB
 - **Test date**: 2025-12-11 (Phase 1)
 - **Framework**: Custom evaluation pipeline with per-category failure classification
-- **Fine-tuning**: Qwen3-4B via Unsloth + QLoRA under WSL2
+- **Fine-tuning**: Qwen3-4B fine-tuned via Ollama Modelfile customization
